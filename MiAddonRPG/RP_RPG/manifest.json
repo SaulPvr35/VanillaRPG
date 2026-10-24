@@ -1,0 +1,17 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Addon RPG - Resources",
+        "description": "Recursos visuales y textos del sistema RPG",
+        "uuid": "e67b7444-bf85-4676-a593-c66cf111c0fe",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 80]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "26084ac6-3780-498e-9e47-d145f638f494",
+            "version": [1, 0, 0]
+        }
+    ]
+}

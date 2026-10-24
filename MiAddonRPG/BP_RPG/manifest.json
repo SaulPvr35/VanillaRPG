@@ -1,0 +1,29 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Addon RPG - Behavior",
+        "description": "Lógica y scripts del sistema RPG",
+        "uuid": "fddac009-e395-49fd-98b9-0fd5fe6deb5e",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 20, 80]
+    },
+    "modules": [
+        {
+            "type": "script",
+            "language": "javascript",
+            "uuid": "ff730907-8199-495f-ae3d-4314e9b5f58c",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            "module_name": "@minecraft/server",
+            "version": "1.14.0"
+        },
+        {
+            "uuid": "e67b7444-bf85-4676-a593-c66cf111c0fe",
+            "version": [1, 0, 0]
+        }
+    ]
+}
